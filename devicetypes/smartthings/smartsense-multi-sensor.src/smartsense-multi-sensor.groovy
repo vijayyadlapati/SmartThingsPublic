@@ -347,7 +347,8 @@ List<Map> garageEvent(zValue) {
 	def contactValue = null
 	if (absValue > 900) {
 		contactValue = 'closed'
-	} else if (absValue < 100) {
+//	} else if (absValue < 100) {
+	} else {
 		contactValue = 'open'
 	}
 	if (contactValue != null) {
